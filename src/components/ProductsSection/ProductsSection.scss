@@ -1,0 +1,21 @@
+.productsSection {
+    padding-top: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    .AllProducts {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .noAvailable {
+        padding: 15px;
+        width: 900px;
+        height: 150px;
+        border-radius: 10px;
+        border: 2px solid rgb(25, 118, 210);
+    }
+}
